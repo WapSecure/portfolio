@@ -1,0 +1,15 @@
+// Dark Theme
+.dark-theme {
+    --color-bg: #10101a;
+    --color-text: var(--color-white);
+    --color-gray: var(--color-gray);
+    --color-border: #2a2b37;
+  }
+  
+  // Light Theme
+  .light-theme {
+    --color-bg: var(--color-light-bg);
+    --color-text: var(--color-light-text);
+    --color-gray: var(--color-light-gray);
+    --color-border: var(--color-light-border);
+  }

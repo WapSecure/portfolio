@@ -38,21 +38,19 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
         data-scroll-target="#menu-target"
         className="menu-top"
       >
-        <Link href="/">
-          <a className="brand-logo">
+        <Link href="/" className="brand-logo">
+          <img
+            className="brand-logo__icon"
+            src="svg/orjilogo.svg"
+            alt="Joseph logo icon"
+          />
+          <span className="brand-logo__text-wrapper">
             <img
-              className="brand-logo__icon"
-              src="svg/orjilogo.svg"
-              alt="Orji logo icon"
+              className="brand-logo__text"
+              src="svg/waplogoright.svg"
+              alt="waplogo logo text"
             />
-            <span className="brand-logo__text-wrapper">
-              <img
-                className="brand-logo__text"
-                src="svg/waplogoright.svg"
-                alt="waplogo logo text"
-              />
-            </span>
-          </a>
+          </span>
         </Link>
         <MenuToggle toggle={toggleOpen} toggleState={isOpen} />
       </div>

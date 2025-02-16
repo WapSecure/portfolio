@@ -5,7 +5,6 @@ import { Navigation } from "../components/Navigation/Navigation";
 import useSwr from "swr";
 import ReactGa from "react-ga";
 
-
 interface indexProps {}
 
 interface Ireply {
@@ -86,7 +85,7 @@ const index: React.FC<indexProps> = ({}) => {
 
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
+      "%c Designed and Developed by Joseph Orji %c %c🚀 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
@@ -137,25 +136,25 @@ const index: React.FC<indexProps> = ({}) => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Orji Joseph 🚀 &mdash; FullStack Developer"
+            content="Joseph Orji 🚀 &mdash; FullStack Developer"
           />
-          <meta property="og:url" content="https://OrjiDev.xyz/" />
+          <meta property="og:url" content="https://orjidev.vercel.app/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
-            content="I'm a self-taught FullStack Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Senior Frontend Engineer with a passion for building scalable, high-performing user interfaces and turning ideas into real-world digital experiences."
           />
           <meta
             name="twitter:title"
-            content="Orji Joseph 🚀 &mdash; FullStack Developer"
+            content="Joseph Orji 🚀 &mdash; Senior Frontend Engineer"
           />
           <meta
             name="twitter:description"
-            content="I'm a self-taught FullStack Developer and turning ideas into real life products is my calling."
+            content="I'm a self-taught Senior Frontend Engineer with a passion for building scalable, high-performing user interfaces and turning ideas into real-world digital experiences.."
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://OrjiDev.xyz/" />
+          <meta name="twitter:url" content="https://OrjiDev.vercel.app/" />
         </Head>
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/ginger.mp3" type="audio/mp3" />
@@ -182,11 +181,12 @@ const index: React.FC<indexProps> = ({}) => {
             >
               <p className="preloader__text">HTML</p>
               <p className="preloader__text">CSS/SCSS</p>
-              <p className="preloader__text">JAVASCRIPT</p>
-              <p className="preloader__text">TYPESCRIPT</p>
-              <p className="preloader__text">REACT JS</p>
-              <p className="preloader__text">NEXT JS</p>
-              <p className="preloader__text">NODEJS</p>
+              <p className="preloader__text">TailwindCSS</p>
+              <p className="preloader__text">JavaScript</p>
+              <p className="preloader__text">TypeScript</p>
+              <p className="preloader__text">ReactJs</p>
+              <p className="preloader__text">NextJs</p>
+              <p className="preloader__text">NodeJs</p>
             </motion.div>
           </div>
         </motion.div>
@@ -199,13 +199,13 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>Turning ideas into </span> <br />
-                <span>real life </span>
+                <span>Turning ideas into</span> <br />
+                <span>real-life </span>
                 <span className="header__hero--heading-gradient">
                   products{" "}
                 </span>
                 <br />
-                <span>is my out most priority.</span>
+                <span>is my top priority.</span>
               </div>
               <a
                 data-scroll-to
@@ -277,16 +277,32 @@ const index: React.FC<indexProps> = ({}) => {
               </div>
             </div>
             <div className="header__footer--right">
-              <a href="https://github.com/wapsecure" rel="noopener" target="_blank">
+              <a
+                href="https://github.com/wapsecure"
+                rel="noopener"
+                target="_blank"
+              >
                 👾 GH
               </a>
-              <a href="https://twitter.com/wapsecureonline" rel="noopener" target="_blank">
+              <a
+                href="https://twitter.com/wapsecureonline"
+                rel="noopener"
+                target="_blank"
+              >
                 🐦 TW
               </a>
-              <a href="https://www.linkedin.com/in/wapsecure" rel="noopener" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/wapsecure"
+                rel="noopener"
+                target="_blank"
+              >
                 💼 LD
               </a>
-              <a href="https://www.instagram.com/wappsecure" rel="noopener" target="_blank">
+              <a
+                href="https://www.instagram.com/wappsecure"
+                rel="noopener"
+                target="_blank"
+              >
                 {" "}
                 📸 IN
               </a>
@@ -295,30 +311,32 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            Hello! 👋, my name is Orji Joseph (WapSecure) and I am a FullStack Developer,
-            passionate <br /> about digital products that help people experience
-            everyday life and not endure it.
+            Hello! 👋 My name is Joseph Orji (WapSecure), and I am a Senior
+            Frontend Engineer. <br /> I'm passionate about building seamless
+            digital experiences that empower people to enjoy everyday life, not
+            just endure it.
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
               <span>Yeah, I work hard </span> <small>💼</small>
             </h1>
             <p className="paragraph">
-              I tried to select some of my unique projects to show you. Here we go.
+              I've selected some of the unique projects I've had the privilege
+              to work on and am excited to showcase them to you. Here they are!
             </p>
 
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, NODEJS, EXPRESS JS, AND POSTRESQL
+                  ReactJs, TailwindCSS, Redux and Typescript
                 </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/roqqu.png" alt="roqqu image" />
-                <img src="webp/roqqu.png" alt="roqqu image" />
+                <img src="webp/roqque.webp" alt="roqqu image" />
+                <img src="webp/roqque.webp" alt="roqqu image" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -328,11 +346,11 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="roqquAnim"
                   className="heading-2"
                 >
-                  Roqqu
+                  Roqqu.
                   <br /> Crypto Currency exchange market
                 </h2>
                 <a
-                rel="noopener"
+                  rel="noopener"
                   target="_blank"
                   href="https://roqqu.com/"
                   className="project-card__link"
@@ -344,7 +362,7 @@ const index: React.FC<indexProps> = ({}) => {
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
-                  rel="noopener"
+                    rel="noopener"
                     target="_blank"
                     href="https://github.com/wapsecure"
                   >
@@ -356,14 +374,14 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">WORDPRESS, PHP, AND MySQL</h4>
+                <h4 className="heading-4">ReactJS, SCSS, Redux, TypeScript</h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/reinashouse.png" alt="Reinashouse" />
-                <img src="webp/reinashouse.png" alt="Reinashouse logo" />
+                <img src="webp/hashnode.png" alt="Hashnode" />
+                <img src="webp/hashnode.png" alt="Hashnode" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -373,14 +391,14 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="reinashouseAnim"
                   className="heading-2"
                 >
-                  Reinashouse 
+                  Hashnode
                   <br />
-                  Multi-niche Blogging Platform
+                  Social Network blogging application
                 </h2>
                 <a
-                rel="noopener"
+                  rel="noopener"
                   target="_blank"
-                  href="https://reinashouse.com/"
+                  href="https://hashnode.com/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
@@ -390,7 +408,53 @@ const index: React.FC<indexProps> = ({}) => {
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
+                    rel="noopener"
+                    target="_blank"
+                    href="https://github.com/wapsecure"
+                  >
+                    <img src="svg/github.svg" alt="github icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <div className="project-card__left">
+                <h4 className="heading-4">ReactJS, SCSS, Redux, TypeScript</h4>
+              </div>
+              <div
+                className="project-card__middle"
+                data-displacement="webp/myDistorsionImage.webp"
+              >
+                <img src="webp/GiG.webp" alt="Xpad" />
+                <img src="webp/GiG.webp" alt="Xpad" />
+              </div>
+              <div className="project-card__right">
+                <h2
+                  data-scroll
+                  data-scroll-offset="35%"
+                  data-scroll-repeat={true}
+                  data-scroll-class="reinashouseAnim"
+                  className="heading-2"
+                >
+                  GIGXPAD.
+                  <br />
+                  Decentralized Financial Network
+                </h2>
+                <a
                   rel="noopener"
+                  target="_blank"
+                  href="https://gigxpad.com/"
+                  className="project-card__link"
+                >
+                  VISIT THE WEBSITE
+                </a>
+                <div className="project-card__socials">
+                  <a href="#">
+                    <img src="svg/dribble.svg" alt="dribble icon" />
+                  </a>
+                  <a
+                    rel="noopener"
                     target="_blank"
                     href="https://github.com/wapsecure"
                   >
@@ -403,15 +467,15 @@ const index: React.FC<indexProps> = ({}) => {
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NODEJS, EJS, MongoDB, AND EXPRESS JS
+                  NextJs, TypeScript, Tanstack Query, TailwindCSS
                 </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/badmus.jpg" alt="badmus" />
-                <img src="webp/badmus.jpg" alt="badmus logo" />
+                <img src="webp/Hydrogen.jpg" alt="Hydrogenpay" />
+                <img src="webp/Hydrogen.jpg" alt="Hydrogenpay" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -421,11 +485,11 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="badmusAnim"
                   className="heading-2"
                 >
-                  Badmus
-                  <br /> Multi-purpose Inventory Management system
+                  HydrogenPay Microfinance Bank.
+                  <br /> Financial Technology for Payment Collection
                 </h2>
                 <a
-                  href="https://badmus.ng/"
+                  href="https://hydrogenpay.com/"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
@@ -437,7 +501,7 @@ const index: React.FC<indexProps> = ({}) => {
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
-                  rel="noopener"
+                    rel="noopener"
                     target="_blank"
                     href="https://github.com/wapsecure"
                   >
@@ -449,14 +513,16 @@ const index: React.FC<indexProps> = ({}) => {
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">JOOMLA CMS, PHP, MySQL</h4>
+                <h4 className="heading-4">
+                  NextJs, TypeScript, Chakra UI, ContextAPI and GraphQL
+                </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/wapsecure.jpg" alt="wapsecure model" />
-                <img src="webp/wapsecure.jpg" alt="wapsecure logo" />
+                <img src="webp/bitbarter.jpeg" alt="Bitbarter" />
+                <img src="webp/bitbarter.jpeg" alt="Bitbarter" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -466,27 +532,23 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="orjiAnim"
                   className="heading-2"
                 >
-                  WapSecure Portfolio
-                  <br /> version 1
+                  Bitbarter
+                  <br /> Crypto Currency Exchange Platform
                 </h2>
                 <a
-                rel="noopener"
+                  rel="noopener"
                   target="_blank"
-                  href="https://wappsecure.com/"
+                  href="https://bitbarter.io/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
                 <div className="project-card__socials">
-                  <a
-                  rel="noopener"
-                    target="_blank"
-                    href="#"
-                  >
+                  <a rel="noopener" target="_blank" href="#">
                     <img src="svg/dribble.svg" alt="dribble icon" />
                   </a>
                   <a
-                  rel="noopener"
+                    rel="noopener"
                     target="_blank"
                     href="https://github.com/wapsecure"
                   >
@@ -495,7 +557,14 @@ const index: React.FC<indexProps> = ({}) => {
                 </div>
               </div>
             </div>
-            <a className="resume" href="svg/Orji-joseph.pdf" target="_blank" rel="noopener noreferrer">Download Resume 📗</a>
+            <a
+              className="resume"
+              href="svg/Joseph-Orji-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download Resume 📗
+            </a>
           </section>
           <section
             data-scroll
@@ -506,7 +575,7 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <span>Mmmm, a little brag </span> <small>😊</small>
+                <span>Hmmm, a little brag </span> <small>😊</small>
               </h1>
               <p className="paragraph paragraph__sub">
                 What people are saying about my portfolio
@@ -556,17 +625,17 @@ const index: React.FC<indexProps> = ({}) => {
               <span>Sold Yet? </span> <small>🤙</small>
             </h1>
             <h2 className="section-contact__h2">
-              Thanks for stopping by, I’m currently looking to join a new team of
-              creative designers and developers. If you think we might be a good
-              fit for one another, give me a
-              <a href="tel:+2348065549856"> call 🇳🇬, send a whatsapp DM </a>
-              or send me an
+              Thanks for stopping by! I’m currently open to joining a dynamic
+              team of creative designers and developers. If you think we’d make
+              a great team, feel free to {""}
+              <a href="tel:+2348065549856">call me 🇳🇬, drop a WhatsApp DM</a>,
+              or send an
               <a
                 href="mailto:writewapsecure@gmail.com"
                 rel="noopener"
                 target="_blank"
               >
-                &nbsp; email 📧
+                &nbsp;email 📧
               </a>
               .
             </h2>
@@ -577,16 +646,32 @@ const index: React.FC<indexProps> = ({}) => {
             </h1>
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">
-              <a href="https://github.com/wapsecure" rel="noopener" target="_blank">
+              <a
+                href="https://github.com/wapsecure"
+                rel="noopener"
+                target="_blank"
+              >
                 👾 GH
               </a>
-              <a href="https://twitter.com/wapsecureonlne" rel="noopener" target="_blank">
+              <a
+                href="https://twitter.com/orjitypescript"
+                rel="noopener"
+                target="_blank"
+              >
                 🐦 TW
               </a>
-              <a href="https://www.linkedin.com/in/wapsecure" rel="noopener" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/wapsecure"
+                rel="noopener"
+                target="_blank"
+              >
                 💼 LD
               </a>
-              <a href="https://www.instagram.com/wappsecure" rel="noopener" target="_blank">
+              <a
+                href="https://www.instagram.com/wappsecure"
+                rel="noopener"
+                target="_blank"
+              >
                 📸 IN
               </a>
             </div>
@@ -595,14 +680,10 @@ const index: React.FC<indexProps> = ({}) => {
         <footer className="footer">
           <img
             src="svg/waplogo.svg"
-            alt="design and devloped by Orji"
+            alt="design and developed by Joseph Orji"
           />
           <div className="footer__socials">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href="#" target="_blank" rel="noopener">
               <img src="svg/dribble.svg" alt="dribble logo" />
             </a>
             <a

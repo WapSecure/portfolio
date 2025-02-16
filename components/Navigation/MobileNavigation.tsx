@@ -1,5 +1,6 @@
 import * as React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const openTransition = {
   duration: 1.1,
@@ -50,30 +51,54 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         <div className="navigation-top__left">
           <h4 className="navigation-h4">WE COULD HOOK UP YOU KNOW</h4>
           <div className="navigation-top__left--links">
-            <a href="https://github.com/wapsecure" rel="noopener" target="_blank">
+            <Link
+              href="https://github.com/wapsecure"
+              rel="noopener"
+              target="_blank"
+            >
               👾 GH
-            </a>
-            <a href="https://twitter.com/wapsecureonline" rel="noopener" target="_blank">
+            </Link>
+            <Link
+              href="https://twitter.com/orjitypescript"
+              rel="noopener"
+              target="_blank"
+            >
               🐦 TW
-            </a>
-            <a href="https://www.linkedin.com/in/wapsecure" rel="noopener" target="_blank">
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/wapsecure"
+              rel="noopener"
+              target="_blank"
+            >
               💼 LD
-            </a>
-            <a href="https://www.instagram.com/wappsecure" rel="noopener" target="_blank">
+            </Link>
+            <Link
+              href="https://www.instagram.com/wappsecure"
+              rel="noopener"
+              target="_blank"
+            >
               📸 IN
-            </a>
+            </Link>
           </div>
         </div>
         <div className="navigation-top__right">
           <h4 className="navigation-h4">HAVE A BUSINESS IDEA?</h4>
-          <a
+          <Link
             href="mailto:writewapsecure@gmail.com"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
             Tell me about it
-          </a>
+          </Link>
         </div>
+        <a
+          className="resume"
+          href="svg/Joseph-Orji-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Download Resume 📗
+        </a>
       </motion.div>
 
       <motion.div
@@ -86,44 +111,44 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
       >
         <h4 className="navigation-h4">FEATURED PROJECTS</h4>
         <div className="navigation-bottom__projects">
-          <a
+          <Link
             target="_blank"
             rel="noopener"
             href="https://roqqu.com"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/roqqu.png" alt="roqqu" />
+            <img src="webp/roqque.webp" alt="roqqu" />
             <h2>
               Roqqu
               <br />
               Crypto Currency exchange market
             </h2>
-          </a>
-          <a
-            href="https://reinashouse.com"
+          </Link>
+          <Link
+            href="https://hashnode.com/"
             target="_blank"
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="webp/reinashouse.png" alt="reinashouse" />
-            <h2>Reinashouse
-              <br />
-              Multi-niche Blogging Platform
-            </h2>
-          </a>
-          <a
-            href="https://badmus.ng/"
-            target="_blank"
-            rel="noopener"
-            className="navigation-bottom__projects-card"
-          >
-            <img src="webp/badmus.jpg" alt="Badmus" />
+            <img src="webp/hashnode.png" alt="hashnode" />
             <h2>
-              Badmus
+              Hashnode
               <br />
-              Multi-purpose Inventory Management system
+              Social Network blogging application
             </h2>
-          </a>
+          </Link>
+          <Link
+            href="https://hydrogenpay.com/"
+            target="_blank"
+            rel="noopener"
+            className="navigation-bottom__projects-card"
+          >
+            <img src="webp/Hydrogen.jpg" alt="Hydrogen" />
+            <h2>
+              HydrogenPay Microfinance Bank.
+              <br /> Financial Technology for Payment Collection
+            </h2>
+          </Link>
         </div>
       </motion.div>
     </motion.div>
