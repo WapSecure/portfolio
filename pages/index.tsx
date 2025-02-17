@@ -439,7 +439,7 @@ const index: React.FC<indexProps> = ({}) => {
                 >
                   GIGXPAD.
                   <br />
-                  Decentralized Financial Network
+                  Decentralized Finance Network
                 </h2>
                 <a
                   rel="noopener"
@@ -485,8 +485,8 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="badmusAnim"
                   className="heading-2"
                 >
-                  HydrogenPay Microfinance Bank.
-                  <br /> Financial Technology for Payment Collection
+                  HydrogenPay.
+                  <br /> Financial Technology for Payment Collection (Microfinance Bank)
                 </h2>
                 <a
                   href="https://hydrogenpay.com/"
